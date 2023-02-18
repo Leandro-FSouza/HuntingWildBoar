@@ -3,7 +3,6 @@ package Classes;
 import java.util.Random;
 
 public class General {
-    private String name;
     private Integer strength, hp, level, mp, dexterity, damage;
 
     public void attack() {
@@ -17,15 +16,6 @@ public class General {
             System.out.println("You hit the enemy!");
         }
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public Integer getStrength() {
         return strength;
     }
